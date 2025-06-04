@@ -1,0 +1,41 @@
+{
+  "inputs": {
+    "path_eira_tool" :  "/root/WB/",
+    "path_hazard_database" :  "/root/WB/EIRA_tool/EIRA/eira/input_data/DataBases" ,
+    "input_folder_path" : "/root/WB/EIRA_tool/EIRA/eira/input_data/",
+    "list_of_countries_path" : "/root/WB/EIRA_tool/EIRA/eira/input_data/WorldMap/List_of_Countries_database.csv",
+    "WorldMap_path" : "/root/WB/GIRI-DRAS-tool/GIRI_DRAS_v1/giri_dras/input_data/WorldMap/MapWord_admin_0.shp",
+    "filenames": {
+      "Name1": "Name1",
+      "filenamesFV": "Name2"
+    },
+    "inputpathEQ" :"inputEQ",
+    "filenameEQ": {
+       "cityPointsPath" :"OffshoreReviewPoints.csv" 
+    },
+
+    
+    "paramvalues_liquefaction": {
+      "event_set_size_years": 10000,
+      "resolution_database_km2": 4.47,
+      "number_of_Points_ERC": 20
+    
+    },
+
+    "paramvalues_Earthquake": {
+      "number_of_Points_ERC": 25,
+      "Min_intensity": 0.0001,        
+      "Max_intensity":2,
+      "event_set_size_years": 10000,
+      "time_frame_years": 50
+        
+    }
+
+  },
+  "outputs": {
+    "write": true,
+    "outputpath" : "output",
+    "NumberofScenariostoExport": 3,  
+    "outputfilename" : "Results_" 
+   }
+}
